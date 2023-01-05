@@ -8,7 +8,7 @@ pipeline {
             steps {
                 echo 'Pulling...';
                 git branch: 'master',
-                url : 'https://github.com/MezghichGit/tp2amsdata.git';
+                url : 'https://github.com/AlexandreBarnett/demoJenins.git';
             }
 
             post {
